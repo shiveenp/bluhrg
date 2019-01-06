@@ -12,7 +12,7 @@ module.exports = {
       { text: "Projects", link: "/projects/" },
       { text: "About", link: "/about/"}
     ],
-    searchMaxSuggestions: 5
+    searchMaxSuggestions: 6
   },
   markdown: {
     lineNumbers: true
