@@ -1,6 +1,21 @@
 module.exports = {
-    title: 'GitLab ❤️ VuePress',
-    description: 'Vue-powered static site generator running on GitLab Pages',
-    base: '/vuepress/',
-    dest: 'public'
-}
+  title: 'Shiveens Blog',
+  description: 'Thoughts and chronicles on programming 👨‍💻 and nature 🌲',
+  base: '/blog/',
+  dest: 'public',
+  head: [
+    ['link', {rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css'}]
+  ],
+  themeConfig: {
+    nav: [
+      { text: 'Home', link: '/' },
+      { text: "Projects", link: "/projects/" },
+      { text: "About", link: "/about/"}
+    ],
+    searchMaxSuggestions: 5
+  },
+  markdown: {
+    lineNumbers: true
+  },
+  sidebar: 'auto'
+};

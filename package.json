@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A starter project for hosting VuePress sites on GitLab pages.",
   "main": "index.js",
-  "author": "samdbeckham",
+  "author": "shiveenpandita",
   "license": "MIT",
   "private": false,
   "scripts": {
