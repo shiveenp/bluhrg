@@ -1,8 +1,7 @@
 ---
 home: true
-heroImage: /home_logo.png
-features:
-- title: Simplicity First
-  details: Minimal setup with markdown-centered project structure helps you focus on writing.
+heroImage: /blog home_logo.png
+actionText: Blog Posts
+actionLink: /POSTS
 footer: MIT Licensed | Copyright © 2018-present Shiveen Pandita
 ---

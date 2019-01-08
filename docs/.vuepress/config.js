@@ -17,5 +17,6 @@ module.exports = {
   markdown: {
     lineNumbers: true
   },
+  lastUpdated: 'Last Updated',
   sidebar: 'auto'
 };
