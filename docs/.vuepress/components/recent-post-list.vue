@@ -3,7 +3,7 @@
         <h2>Recent Articles</h2>
         <ul>
             <li v-for="post in recentPosts" style="list-style-type: none">
-                <a :href="post.path">{{post.title}} | {{post.frontmatter.date}}</a>
+                <a :href="post.path">{{post.title}} (published: {{post.frontmatter.date}})</a>
             </li>
         </ul>
     </div>
