@@ -1,7 +1,7 @@
 {
-  "name": "vuepress-gl-pages",
+  "name": "shiveens-blog",
   "version": "1.0.0",
-  "description": "A starter project for hosting VuePress sites on GitLab pages.",
+  "description": "Shiveen blog project in vuepress",
   "main": "index.js",
   "author": "shiveenpandita",
   "license": "MIT",
