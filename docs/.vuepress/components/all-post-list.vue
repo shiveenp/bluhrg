@@ -18,11 +18,9 @@
     },
     computed:{
       posts() {
-        let files = this.$site.pages.filter(p => {
+        return this.$site.pages.filter(p => {
           return p.path.indexOf('/posts/') >= 0;
-        }).reverse()
-
-        return files;
+        }).reverse();
       }
     }
   }
