@@ -7,6 +7,7 @@ module.exports = {
     ['link', {rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css'}]
   ],
   themeConfig: {
+    lastUpdated: 'Last Updated',
     nav: [
       { text: 'Home', link: '/' },
       { text: "Projects", link: "/projects/" },
@@ -17,6 +18,5 @@ module.exports = {
   markdown: {
     lineNumbers: true
   },
-  lastUpdated: 'Last Updated',
-  sidebar: 'auto'
+  sidebar: 'auto',
 };
