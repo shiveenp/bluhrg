@@ -7,8 +7,6 @@ module.exports = {
   themeConfig: {
     lastUpdated: 'Last Updated',
     nav: [
-      { text: 'Home', link: '/' },
-      { text: "Projects", link: "/projects/" },
       { text: "About", link: "/about/"}
     ],
     searchMaxSuggestions: 6
