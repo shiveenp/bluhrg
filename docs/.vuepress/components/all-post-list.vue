@@ -1,8 +1,5 @@
 <template>
     <div>
-        <!--
-    <h2>All Articles</h2>
-        -->
         <ul>
             <li v-for="post in posts" style="list-style-type: none">
                 <a :href="post.path">{{post.title}} (published: {{post.frontmatter.date}})</a>
