@@ -11,7 +11,6 @@
     },
     computed:{
       contentLength() {
-        console.log(this.$page.excerpt);
         return Math.round(this.$page.excerpt.split(" ").length / 200)
       }
     }
