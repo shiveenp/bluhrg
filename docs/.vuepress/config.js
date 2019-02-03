@@ -2,7 +2,8 @@ module.exports = {
   title: 'Shiveens Blog',
   description: 'Thoughts and chronicles on programming 👨‍💻 and nature 🌲',
   head: [
-    ['link', {rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css'}]
+    ['link', {rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css'}],
+    ['link', {rel: 'typesheet', href: 'https://fonts.googleapis.com/css?family=Ubuntu+Mono'}]
   ],
   themeConfig: {
     lastUpdated: 'Last Updated',
