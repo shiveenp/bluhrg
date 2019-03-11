@@ -96,5 +96,20 @@ data class IgOembedResponse(
 
 In this example, I've used the `@JsonIgnoreProperties` and `@JsonAlias` annotations from jackson which is a well known serialization/deserialization library for java. However, http4k does not limit to just one such library and provides various options such as [Gson](https://github.com/google/gson), [moshi](https://github.com/square/moshi) etc. as plugins. Just remember to add the library of your choice in your build.gradle.
 
-Finally, going back to the 
+Finally, going back to the our code snippet for `getOembedData` introduced earlier, we first setup a new client:
+
+`val client: HttpHandler = JavaHttpClient()`
+
+which gives us a new Java based http client, which is a simple implementation of a simple Request -> Response client as a function introduced in the [previous section](## Setting up a micro server with http4k). All it does is take a request and parses the response as a bytestream. 
+
+To parse the bytestream in a typesafe way, we attach it to our lens which contains the data class we just defined:
+
+`igLens.extract(client(request))`
+
+if the request is succesful, we will get an object parsed into the `IgOembedResponse` type. For our purposes, what we really need is the html, which gives us the full oembed html to uses in an iframe.
+
+## Deploying the app on AWS Lambda
+
+
+
 
