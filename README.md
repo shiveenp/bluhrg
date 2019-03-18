@@ -2,7 +2,7 @@
 
 This is my personal blog where I document the things that amuse (or sometimes confuse) me. 
 
-The blog is generated using [VuePress](https://vuepress.vuejs.org) and uses github CI to deploy on GitLab pages.
+The blog is generated using [VuePress](https://vuepress.vuejs.org) and is deployed on Netlify.
 
 ### To run the site locally
 
