@@ -115,7 +115,11 @@ To parse the bytestream in a typesafe way, we attach it to our lens which contai
 if the request is succesful, we will get an object parsed into the `IgOembedResponse` type. For our purposes, what we really need is the html, which gives us the full oembed html whioch we can use in an iframe.
 
 
-### Final Results
+### Final Notes
 In the end, I ended up deploying the app on aws lambda by by setting up an API gateway and a lambda function that called the final app. The final cleaned source code for the app is located [here](https://github.com/shavz/koember) and it also contains the instructions on how to call the aws lambda function to get the oembed responses.
 
 All in all, I was pleasantly surprised at how productive I was working with http4k and how easy it is to setup a FAAS type application using kotlin and AWS.
+
+<!-- more -->
+
+<commento/>
