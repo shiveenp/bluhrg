@@ -1,12 +1,18 @@
-# A Simple Serverless Oembed Service with http4k
+--- 
+title: A Simple OEMBEd service in kotlin with http4k
+lang: us-EN
+date: "18-03-2019"
+---
 
-Recently on my usual #githunt prowl I came across a new promising http library written in pure kotlin called [http4k](https://github.com/http4k/http4k/). The library is based on the philosophy of **Application as Function** based on the twitter paper [Your Server as a Function](https://monkey.org/~marius/funsrv.pdf) and promises a lightweight a server toolkit alongwith a very modular approach to adding functionality on top of the core set of capabilities built in. But the best part of all, http4k is written in pure Kotlin and follows a consistent functional approach in handling http services.
+# A Simple embed Service with http4k
 
-Now, as much as a like the kitchen sink approach of Spring framework in getting an almost enterprise ready service running with a couple of tutorials and minimal effort , I really wanted to try my hands at something lighter and different. This was also an opportunity to run a simple serverless jdk service using AWS lambda, this blog is just a small intro to http4k and its ease of use.
+Recently on my usual #githunt prowl I came across a new promising http library called [http4k](https://github.com/http4k/http4k/). The library is based on the philosophy of **Application as Function** based on the twitter paper [Your Server as a Function](https://monkey.org/~marius/funsrv.pdf) and promises a lightweight a server toolkit alongwith a very modular approach to adding functionality on top of the core set of capabilities built in. But the best part of all, http4k is written in pure Kotlin and follows a consistent functional approach in handling http services.
+
+Now, as much as a like the kitchen sink approach of Spring framework in getting an almost enterprise ready service running with a couple of tutorials and minimal effort , I really wanted to try my hands at something lighter and different. 
 
 ## Setting up a micro server with http4k
 
-Http4k promises a simple yet highly configurable way to setup a microserver using nothing but just the core client and an underlying webserver of choosing. 
+Http4k provides a simple yet highly configurable way to setup a microserver using nothing but just the core client and an underlying webserver of choosing. 
 
 To start off, create a new base gradle project in Intellij or any IDE of your choosing and add the following dependencies:
 
@@ -37,7 +43,7 @@ fun main() {
     val nettyServer = app.asServer(Netty(9000)).start()
 }
 ```
-The snippet above starts up a basic Netty server on port 9000. The startup time is very small, I calculated less than <2 seconds in my observations but the tests were not rigorous so take it with a grain of salt. Once started, the app will start serving the tow routes `/alive` and `/api` on the local machine. the alive endpoint is simple to make sure we can ping the app so I;m not going to talk about it anymore. The `/api` link however has an embedded route to `/embedLink` which allows us to make *GET* calls to the server with the query param link which contains the link to the resource we are wanting to get the oembed link for.
+The snippet above starts up a basic Netty server on port 9000. The startup time is very small, I calculated less than <2 seconds in my observations but the tests were not rigorous so take it with a grain of salt. Once started, the app will start serving the two routes `/alive` and `/api` on the local machine. the alive endpoint is simple to make sure we can ping the app so I;m not going to talk about it anymore. The `/api` link however has an embedded route to `/embedLink` which allows us to make *GET* calls to the server with the query param link which contains the link to the resource we are wanting to get the oembed link for.
 
 So, let's talk a little bit more about how we do that...
 
@@ -94,7 +100,7 @@ data class IgOembedResponse(
 )
 ```
 
-In this example, I've used the `@JsonIgnoreProperties` and `@JsonAlias` annotations from jackson which is a well known serialization/deserialization library for java. However, http4k does not limit to just one such library and provides various options such as [Gson](https://github.com/google/gson), [moshi](https://github.com/square/moshi) etc. as plugins. Just remember to add the library of your choice in your build.gradle.
+In this example, I've used the `@JsonIgnoreProperties` and `@JsonAlias` annotations from [jackson](https://github.com/FasterXML/jackson) which is a well known serialization/deserialization library for java. However, http4k does not limit to just one such library and provides various options such as [Gson](https://github.com/google/gson), [moshi](https://github.com/square/moshi) etc. as plugins. Just remember to add the library of your choice in your build.gradle.
 
 Finally, going back to the our code snippet for `getOembedData` introduced earlier, we first setup a new client:
 
@@ -106,10 +112,10 @@ To parse the bytestream in a typesafe way, we attach it to our lens which contai
 
 `igLens.extract(client(request))`
 
-if the request is succesful, we will get an object parsed into the `IgOembedResponse` type. For our purposes, what we really need is the html, which gives us the full oembed html to uses in an iframe.
-
-## Deploying the app on AWS Lambda
+if the request is succesful, we will get an object parsed into the `IgOembedResponse` type. For our purposes, what we really need is the html, which gives us the full oembed html whioch we can use in an iframe.
 
 
+### Final Results
+In the end, I ended up deploying the app on aws lambda by by setting up an API gateway and a lambda function that called the final app. The final cleaned source code for the app is located [here](https://github.com/shavz/koember) and it also contains the instructions on how to call the aws lambda function to get the oembed responses.
 
-
+All in all, I was pleasantly surprised at how productive I was working with http4k and how easy it is to setup a FAAS type application using kotlin and AWS.
