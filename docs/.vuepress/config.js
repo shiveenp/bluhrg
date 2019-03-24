@@ -7,7 +7,9 @@ module.exports = {
   themeConfig: {
     lastUpdated: 'Last Updated',
     nav: [
-      { text: "About", link: "/about"}
+      {text: "Posts", link: "/POSTS"},
+      {text: "About", link: "/about"},
+      {text: "Github", link: "https://github.com/shavz"},
     ],
     searchMaxSuggestions: 6
   },
