@@ -28,6 +28,7 @@
     }
     .social-icon {
         color: #fff;
+        margin-right: 2px;
     }
     ul.social-icons {
         margin-top: 10px;
