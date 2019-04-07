@@ -1,10 +1,13 @@
---- 
-title: A Simple OEMBEd service in kotlin with http4k
-lang: us-EN
-date: "18-03-2019"
 ---
-
-# A Simple embed Service with http4k
+title: Simple Oembed Service Using Http4k Framework
+date: 2019-03-18 11:27:06
+tags:
+- http4k
+- kotlin
+- oembed
+categories:
+- showcase
+---
 
 Recently on my usual #githunt prowl I came across a new promising http library called [http4k](https://github.com/http4k/http4k/). The library is based on the philosophy of **Application as Function** based on the twitter paper [Your Server as a Function](https://monkey.org/~marius/funsrv.pdf) and promises a lightweight a server toolkit alongwith a very modular approach to adding functionality on top of the core set of capabilities built in. But the best part of all, http4k is written in pure Kotlin and follows a consistent functional approach in handling http services.
 
@@ -63,7 +66,8 @@ fun getOembedData(link: String): String {
 
     return igLens.extract(client(request)).html
 }
-``` 
+```
+
 Here we provide the function an actual link to the resource (in this case a link to a post instagram) and use the hardcoded instagram oembed url to grab the oembed html.  
 
 To actually parse the returned response from instagram, we use a very nifty feature in http4k called [Lenses](https://www.http4k.org/cookbook/typesafe_http_requests_with_lenses/) which allows us to use typesafety while working with the request/response from the http client calls. Lenses are a very powerful feature and allow not only immutable parsing of request/response objects but also use ADTs to parse the responses in an [Maybe](https://en.wikipedia.org/wiki/Monad_(functional_programming)#An_example:_Maybe) using functional extension libraries for kotlin such as [Arrow](https://arrow-kt.io/).
@@ -104,13 +108,17 @@ In this example, I've used the `@JsonIgnoreProperties` and `@JsonAlias` annotati
 
 Finally, going back to the our code snippet for `getOembedData` introduced earlier, we first setup a new client:
 
-`val client: HttpHandler = JavaHttpClient()`
+```kotlin
+val client: HttpHandler = JavaHttpClient()
+```
 
 which gives us a new Java based http client, which is a simple implementation of a simple Request -> Response client as a function introduced in the [previous section](## Setting up a micro server with http4k). All it does is take a request and parses the response as a bytestream. 
 
 To parse the bytestream in a typesafe way, we attach it to our lens which contains the data class we just defined:
 
-`igLens.extract(client(request))`
+```kotlin
+igLens.extract(client(request))
+```
 
 if the request is succesful, we will get an object parsed into the `IgOembedResponse` type. For our purposes, what we really need is the html, which gives us the full oembed html whioch we can use in an iframe.
 
@@ -119,7 +127,3 @@ if the request is succesful, we will get an object parsed into the `IgOembedResp
 In the end, I ended up deploying the app on aws lambda by by setting up an API gateway and a lambda function that called the final app. The final cleaned source code for the app is located [here](https://github.com/shavz/koember) and it also contains the instructions on how to call the aws lambda function to get the oembed responses.
 
 All in all, I was pleasantly surprised at how productive I was working with http4k and how easy it is to setup a FAAS type application using kotlin and AWS.
-
-<!-- more -->
-
-<commento/>

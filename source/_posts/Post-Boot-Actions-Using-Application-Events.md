@@ -1,12 +1,12 @@
---- 
-title: Spring Post Boot Actions Using Application Events
-lang: us-EN
-date: "10-01-2019"
 ---
-
-# Spring Post Boot Actions Using Application Events
-
-<read-time-calculator/>
+title: Post Boot Actions Using Application Events
+date: 2019-01-10 18:23:18
+tags:
+- springboot
+- kotlin
+categories:
+- tutorial
+---
 
 ## Background
 
@@ -102,6 +102,3 @@ Here we use the help of [ApplicationContext](https://docs.spring.io/spring-frame
 ## Final notes
 A code very similar to that with some business speicifc sauce is what I used to solve the problem we encountered in the previous section and it brought down the application startup time to less than 15 seconds, which was a major win for a critical production application. Utilizing the APIs and utilities provided by Spring out of the box in my opinion provides the easiest and most convenient way to solve most production problems and is a testament to maturity of Spring and its status as one of the top jvm web framework out there.
 
-<!-- more -->
-
-<commento/>
