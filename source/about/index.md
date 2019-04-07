@@ -2,7 +2,7 @@
 title: about
 date: 2019-04-07 12:32:56
 ---
-![](./about_page_image.png)
+![](./about_image.png)
 
 Hi 👋, my name is Shiveen and I'm a software engineer based out of Sydney, Australia. I like talking about all things tech and trying out new burger spots all around the world. I was first introduced to tech and electronics when I was around 8 years old in the form of a crusty old compaq (remember those, or maybe not). I spent most of my weekends tinkering with electronics and as I grew up, became fascinated with playing with old electronic equipment in the house and soldering old 8086s together and running silly assembly scripts.
 
