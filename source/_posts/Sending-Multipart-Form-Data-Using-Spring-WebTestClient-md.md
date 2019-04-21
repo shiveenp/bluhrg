@@ -17,7 +17,7 @@ categories:
 
 For the past year or so, I have been working extensively with spring, especially spring webflux; building scalable reactive micro services for our customers.
 
-Coming from spring MVC, learning webflux and getting used to reactive programming in general has been a great and worthy learning experience and I highly suggest going through the [references](#references) section if you haven’t heard of reactive programming and/or have been thinking about giving it a go and don’t know where to start. But essentially reactive programming involves a model of creating, requesting and manipulating data in a controllable (from a consumers perspective) and non-blocking manner.
+Coming from spring MVC, learning webflux and getting used to reactive programming in general has been a great and worthy learning experience and I highly suggest going through the [references](#References) section if you haven’t heard of reactive programming and/or have been thinking about giving it a go and don’t know where to start. But essentially reactive programming involves a model of creating, requesting and manipulating data in a controllable (from a consumers perspective) and non-blocking manner.
 
 [WebTestClient](https://docs.spring.io/spring/docs/current/spring-framework-reference/testing.html#webtestclient) is a reactive testing high level http client with fluent assertions, packaged in spring web flux. Recently, while integration testing an application that accepted data as [multipart/form-data](https://tools.ietf.org/html/rfc7578) I had to figure out how to test the data effectively using the webtestclient and personally found the lack of comprehensive resources on the internet lacking, so I wrote this blogpost to share my own learnings.
 
@@ -103,7 +103,7 @@ The above code snippet will successfully send the required data to our test api 
 
 ![](https://media.giphy.com/media/l0ErKDci4GgPkcAF2/giphy.gif)
 
-# References
+## References
 
 - [Reactive Manifesto](https://www.reactivemanifesto.org/)
 - [Spring Webflux](https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html#spring-webflux)
