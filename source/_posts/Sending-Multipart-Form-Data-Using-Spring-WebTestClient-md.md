@@ -101,6 +101,8 @@ class WebClientTest {
 
 The above code snippet will successfully send the required data to our test api and the webtestclient asserts that the response is 200 OK.
 
+![](https://media.giphy.com/media/l0ErKDci4GgPkcAF2/giphy.gif)
+
 # References
 
 - [Reactive Manifesto](https://www.reactivemanifesto.org/)
