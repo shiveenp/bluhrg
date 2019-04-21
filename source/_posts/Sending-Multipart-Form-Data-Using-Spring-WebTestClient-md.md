@@ -17,13 +17,13 @@ categories:
 
 For the past year or so, I have been working extensively with spring, especially spring webflux; building scalable reactive micro services for our customers.
 
-Coming from spring MVC, learning webflux and reactive programming in general has been a great and worthy learning experience and I highly suggest going through the references section if you haven’t heard of reactive programming and/or have been thinking about giving it a go and don’t know where to start. But essentially reactive programming involves a model of creating, requesting and manipulating data in a controllable (from a consumers perspective) and non-blocking manner.
+Coming from spring MVC, learning webflux and getting used to reactive programming in general has been a great and worthy learning experience and I highly suggest going through the [references](#references) section if you haven’t heard of reactive programming and/or have been thinking about giving it a go and don’t know where to start. But essentially reactive programming involves a model of creating, requesting and manipulating data in a controllable (from a consumers perspective) and non-blocking manner.
 
-[WebTestClient](https://docs.spring.io/spring/docs/current/spring-framework-reference/testing.html#webtestclient) is a a non reactive testing client with fluent assertions, provided in spring web flux as a replacement for web server testing in a nonblocking manner. Recently, while integration testing an application that accepted data as [multipart/form-data](https://tools.ietf.org/html/rfc7578) I had to figure out how to test the data effectively using the webtestclient and personally found the lack of comprehensive resources on the internet lacking, so I wrote this blogpost to share my own learnings.
+[WebTestClient](https://docs.spring.io/spring/docs/current/spring-framework-reference/testing.html#webtestclient) is a reactive testing high level http client with fluent assertions, packaged in spring web flux. Recently, while integration testing an application that accepted data as [multipart/form-data](https://tools.ietf.org/html/rfc7578) I had to figure out how to test the data effectively using the webtestclient and personally found the lack of comprehensive resources on the internet lacking, so I wrote this blogpost to share my own learnings.
 
 ## Web Form Testing with Webflux
 
-Let’ suppose that we’re trying to send the request to fill a form api that accepts a document (image, text, plain binary etc.) and some textual data.
+Let’s suppose that we’re trying to send the request to fill a form api that accepts a document (image, text, plain binary etc.) and some textual data.
 
 To aid with our example, lets imagine the form is a profile setup for an document share service and takes the following input:
 
