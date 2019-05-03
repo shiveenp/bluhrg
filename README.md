@@ -4,4 +4,4 @@
 
 This is my personal [blog](https://shiveenp.com).
 
-Built with hexo and uses cactus theme. 
+Built with hexo and uses cactus theme; deployed and served via [Netlify](https://www.netlify.com/).
