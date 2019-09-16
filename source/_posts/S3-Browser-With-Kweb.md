@@ -22,7 +22,7 @@ Going through their codebase, I though it would be a really good opportunity to 
 
 ## Simple Kotlin S3 Client
 
-To start off, I wrote a basic S3 browsing class, starting off small - I copied the code from AWS examples on creating a new S# client and then added the ability to search for all public keys in a given bucket and get some metadata and download links:
+To start off, I wrote a basic S3 browsing class, starting off small - I copied the code from AWS examples on creating a new S3 client and then added the ability to search for all public keys in a given bucket and get some metadata and download links:
 
 ```kotlin
 class S3Client(private val endpoint: String, private val bucketName: String) {
