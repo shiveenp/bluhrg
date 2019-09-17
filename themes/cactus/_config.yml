@@ -15,11 +15,9 @@ direction: ltr
 # languages/*.yml
 nav:
   home: /
-  about: /about/
-  search: /search/
-  articles: /archives/
-  projects: https://github.com/shavz
+  Writing: /archives/
   Reading: /reading/
+  About Me: /about/
 
 
 # Links to your social media accounts.

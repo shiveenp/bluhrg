@@ -2,8 +2,14 @@
 title: about
 date: 2019-04-07 12:32:56
 ---
-![](./about_image.png)
+Hi I'm Shiveen Pandita 👋🏽 
 
-Hi 👋, my name is Shiveen Pandita, and I'm a software engineer based out of Sydney, Australia. I like talking about all things tech and trying out new burger spots all around the world. I was first introduced to tech and electronics when I was around 8 years old in the form of a crusty old compaq (remember those, or maybe not). I spent most of my weekends tinkering with electronics and as I grew up, became fascinated with playing with old electronic equipment in the house and soldering old 8086s together and running silly assembly scripts.
+![](about_me.jpg)
 
-Aside from programming and burgers. I'm also an avid hiker/camper and love to get out in the nature every once in a while. I'm hoping to start documenting my landscape shots here soon...
+I like building software and products for companies that are making a difference. I have previously worked in finance and lead the platform team for a large scale orders and payments platform. Currently working on making the retirement lives of average australian better by making super efficient at [Grow Super](https://www.growsuper.com/).
+
+I'm into camping 🏕 hiking 🥾 and landscape photography ⛰ 📷 and always try to find time in my schedule to switch off and spend time away from the screen. 
+
+Growing up, I've always been fascinated with how the world works and the ability to write software as living allows me explore all the possibilities I can think of and also connect them with what I learn when I go out in the Nature.
+
+
