@@ -2,7 +2,7 @@
 title: about
 date: 2019-04-07 12:32:56
 ---
-Hi I'm Shiveen Pandita 👋🏽 
+Hi! I'm Shiveen Pandita 👋🏽 
 
 ![](about_me.jpg)
 
