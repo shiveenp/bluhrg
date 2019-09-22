@@ -10,7 +10,7 @@ Growing up, I've always been fascinated with how the world works and the ability
 
 In my spare time I love catching up on all things astronomy 🌌 🚀 and am an avid reader with my favourite genres being hard science fiction, psychology and autobiographical novels.
 
-I also am passionate about camping 🏕 hiking 🥾 and sometimes landscape photography ⛰ 📷  - and always try to find time in schedule to swicth off a connect with nature.
+I am also passionate about camping 🏕 hiking 🥾 and sometimes landscape photography ⛰ 📷  - and always try to find time in schedule to swicth off a connect with nature.
 
 Here's what I sometimes look like:
 
