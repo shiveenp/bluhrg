@@ -12,3 +12,4 @@ In my spare time I love catching up on all things' astronomy 🌌 🚀 and am an
 
 I am also passionate about camping 🏕 hiking 🥾 and sometimes landscape photography ⛰ 📷  — and always try to find time in schedule to switch off and connect with nature.
 
+[Resume](/resume)
