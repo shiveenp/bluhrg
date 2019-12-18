@@ -11,7 +11,7 @@ tags:
 
 ## Background
 
-Recently I found myself with a little bit of extra development time on hand. Now usually, most of my projects start off as big grand ideas and as soon as I start working on them, I lose steam or life comes in the way and things just sit their eating dust as a private github repo.
+Recently I found myself with some extra development time on hand. Now usually, most of my projects start off as big grand ideas and as soon as I start working on them, I lose steam or life comes in the way and things just sit their eating dust as a private github repo.
 
      
 However, I stumbled upon [Kweb](https://github.com/kwebio/kweb-core) which is a server side rendered web app building library, but written entirely in Kotlin. Kweb provides a nice [dsl](https://en.wikipedia.org/wiki/Domain-specific_language) like interface to build web apps by programmatically defining the html elements for the app instead of writing the html and CSS by hand. For those who don't know, Kotlin provides a really nice way to build [type safe declarative builders](https://kotlinlang.org/docs/reference/type-safe-builders.html).
