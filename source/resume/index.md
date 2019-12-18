@@ -41,7 +41,27 @@ Joined the team as a senior engineer leading the technical design and delivering
 - Created an open sourced [Rust] utility for calculating 
 
 ## JP Morgan - Associate Software Engineer
-Jan 2018 - 
+Dec 2016 - June 2018
+
+Working in this role, I wore many hats and worked across various agile feature teams across the custody, fund management and risk lines of business. Some key deliverables and objectives that I worked on my time there included working on a fund management exception and reporting system, a risk reporting system and a several other smaller projects.
+
+- Worked closely with fund managers to build out an exception management system with backend in Java and frontend in AngularJS which was later migrated to Angular 4.
+- Worked alongside the DevOps and production support teams to deliver CI/CD value across the whole organisation and upgraded out production monitoring services.
+- Worked with teams across three timezones to upgrade a risk and compliance reporting system which delivered reports directly to trustees and investment managers.
+
+## Tools and Languages
+
+Languages: Kotlin, Java, Rust, Javascript, Python
+
+Backend Frameworks: Spring, Vert.x, Http4k
+
+Frontend Frameworks: VueJS, React
+
+Database: Postgresql, Mongodb
+
+Devops: AWS, Kubernetes, Docker
+
+Methodologies: Agile
 
 
 
