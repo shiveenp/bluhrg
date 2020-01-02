@@ -2,7 +2,7 @@
 title: about
 date: 2019-04-07 12:32:56
 ---
-Hi! I'm Shiveen 👋🏽 🤓
+Hi! My name is Shiveen 👋🏽 🤓
 
 I like building software and products for companies that are making a difference. I have previously worked in finance @ [JPMorgan](https://www.jpmorgan.com/) and lead the platform team for a large scale orders and payments system @ [Ordermentum](https://www.ordermentum.com/). Currently, working on making the retirement lives of average australian better by making [superannuation](https://en.wikipedia.org/wiki/Superannuation_in_Australia) efficient @ [Grow Super](https://www.growsuper.com/).
 
