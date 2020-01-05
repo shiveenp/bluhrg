@@ -1,15 +1,19 @@
 ---
 title: Software Engineering Levels
-date: 2020-01-02 21:49:32
+date: 2020-01-05 10:49:32
 tags: 
 - software
 - general
 - skills
 ---
 
-Working as a software engineer, one thing I have noticed that riles up engineers like nothing other is job  titles. No other topic elicits a more passionate response than when an engineer thinks that their ranking in this made up pecking order is threatened by an unworthy usurper in their company. The pattern is the same, whether it be a 1000+ tech drone corporate or small tight-knit startup. 
+For many software engineers, SE job titles hold a [special place](https://blog.usejournal.com/the-software-engineering-job-ladder-4bf70b4c24f3). No other topic elicits a more passionate response than when an engineer thinks that their ranking in the pecking order is threatened by an unworthy usurper in their company. The pattern is the same, whether it be a 1000+ tech drone corporate or small tight-knit startup. 
 
 Although initially used to define various steps in the career ladder <sup><a href="https://www.coderhood.com/software-engineering-job-titles/">1</a></sup> which meant more prestige from the colleagues and more importantly, better compensation from the employer - the ranks have warped into a pissing contest between new developers in the industry. The way I like to look at it is that the ranks are purely indicative of the level of impact, and the breadth of responsibility that any engineering individual in the company has. Unlike popular opinion, I don't think it's necessarily tied to experience either - I have seen engineers with < 2 years of experience handling complex architectural problems and conversely seen someone with > 10 years of experience in the industry struggling with basic programming concepts. There's also the matter of company size, a mid level at a large company might be a senior at a small company and vice versa. The career progression paths are different in every company and where you might lie based on that should also be taken into account.
+
+
+![](SE%20Levels.jpg)
+
 
 For someone who has been coding since the age of 13 and has had various jobs at different levels in a professional setting for the past five years, I felt like now was the time to put in writing my thoughts on what constitutes developers at various levels. It is worth noting however that whatever you read here isn't definitive, and as always factors outside of technical and soft skills should be taken into account. 
 
@@ -22,7 +26,7 @@ In my opinion, such candidates are the lifeblood of any organisation, and they s
 
 - **Write code.** As simple as that. As a junior, the expectations are not multi dimensional, and the company would thank you for just writing code and getting s*&$ done! You might be good at leetcode and blazingly fast at writing linkedlist implementations, but if you can't write proper javascript and css as a frontend engineer, you're already on a sinking ship. 
 
-- **Network and be open to feedback.** Perhaps the most important skill of them all when you're just starting is to always be open to feedback from peers, whether it be via pull requests submitted at work or via a mentorship sessions with someone with a bit more experience. Another important professional goal should be to network with as many people as possible within the industry. This can involve going to meetups, tech fairs, conferences, hackathons etc. Programming by nature attracts social recluses, so going to events like those can provide a safe environment to meet new people in the industry without the undue pressure of an alternagtive social setting.
+- **Network and be open to feedback.** Perhaps the most important skill of them all when you're just starting is to always be open to feedback from peers, whether it be via pull requests submitted at work or via a mentorship sessions with someone with a bit more experience. Another important professional goal should be to network with as many people as possible within the industry. This can involve going to meetups, tech fairs, conferences, hackathons etc. Programming by nature attracts social recluses, so going to events like this can provide a safe environment to meet new people in the industry without the undue pressure of an alternative social setting.
   
 - **Learn various auxiliary system.** Professional programming isn't simply writing code, it involves using version control systems, dealing with frameworks, reading APIs and reasoning about the system from them, working with databases etc. No one would expect you to be an expert in these systems, but knowing your way around it is almost essential part of the role. Fortunately, any good company will be willing to spend time and mentorship hours to coach you on any of those topics if you'ev never done them before.
 
@@ -51,10 +55,18 @@ People in these positions are usually regarded as the influencers and drivers of
 
 ### Communication
 
-I decided to leave this for the last since it's such a critical skill no matter the level you're working. For entry level/junior engineers it's important to be to consistently ask for feedback and articulate why the code they added/changed was done in the way it did. For mid level engineers, it's important to be able communicate with  juniors on the team as well as be able to document design decisions made during the course of delivering product features.For sernor engineers and above it's even more critical, 
+Communication is such an essential skill for engineers at all levels, so I decided to dedicate a whole section to it. Good communication skills are hard to quantify but very easy to identify. More often than not, technical and project management, inside a company would rather have engineers that can communicate but produce marginally less output over engineers that are rockstars but lack the desired communication skills. This is not universal, but it is definitely the trend.
+
+For entry level/junior engineers it's important to be to consistently ask for feedback and articulate why the code they added/changed was done in the way it did. 
+
+For mid level engineers, it's important to be able communicate with juniors on the team as well as be able to document design decisions made over the course of delivering product features.
+
+For senior engineers and above it is even more critical, as a big part of their job is to communicate their ideas and have them percolate through various teams inside the development org.  
 
 
 ### Why leave the rest
+
+I understand that an engineering org can, and mostly is, made up of other varieties of engineers such as intern or graduante/entry level engineers, technical analysts, software architects, tech leads, devops ninja etc etc. This is post is not aimed at them and sometimes a lot of their skills will overlap with developers. I might do a follow up post in the future that targets people working in cross-cutting development roles.
 
 
 
