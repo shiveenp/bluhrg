@@ -2,11 +2,10 @@
 title: resume
 date: 2019-11-08 21:44:35
 ---
-[View as PDF](./Resume.pdf)
 
 # Summary
 
-I lead development and product teams that succeed by setting up and evolving the development strategies that scale as well as impact key business products and outcomes. 
+I lead development and product teams to succeed by setting up and evolving the development strategies that scale, as well as impact key business products and outcomes. 
 
 # Experience
 
