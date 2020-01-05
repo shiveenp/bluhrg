@@ -15,3 +15,4 @@ In my spare time I love catching up on all things' astronomy 🌌 🚀, history 
 Outside of my programming pursuits, I am also passionate about camping 🏕, hiking 🥾, landscape photography ⛰ 📷  — and boxing 🥊. 
 
 ![](./about_me.jpg)
+    
