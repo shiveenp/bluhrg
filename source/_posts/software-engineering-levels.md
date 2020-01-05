@@ -18,7 +18,7 @@ Although initially used to define various steps in the career ladder <sup><a hre
 For someone who has been coding since the age of 13 and has had various jobs at different levels in a professional setting for the past five years, I felt like now was the time to put in writing my thoughts on what constitutes developers at various levels. It is worth noting however that whatever you read here isn't definitive, and as always factors outside of technical and soft skills should be taken into account. 
 
 
-### Junior Software Engineers
+### Junior Software Engineer
 
 This is someone who's just tasted the wonderful life of what it means to make machines do mans bidding. More often than not, people that are put in this category are either fresh out of university with a degree that had some programming background or have just graduated from an academy, or an institute specializing in teaching people how to code.
 
@@ -42,7 +42,7 @@ These are the underdogs of any dev shop. Almost always underappreciated but are 
 
 - **Comfortable in making component and micro level architectural decisions.** This part of mid level engineer roles, overlaps with a senior engineer/solution architects role. As a mid level engineer you're also expected autonomously make micro level code and drive technical decisions withing a small 2-3 team pod. Quite frankly, most companies won't expect it but in my opinion if someone is truly looking to breach into the senior engineer and then perhaps technical leadership ladder this is an essential skill.
 
-### Senior Software Engineers
+### Senior Software Engineer
 
 People in these positions are usually regarded as the influencers and drivers of technical direction in a given stack/project domain for the company. Routine expectations for people in such roles are:
 
