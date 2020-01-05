@@ -1,6 +1,6 @@
 ---
 title: Software Engineering Levels
-date: 2020-01-05 10:49:32
+date: 2020-01-05 12:59:56
 tags: 
 - software
 - general
@@ -12,7 +12,7 @@ For many software engineers, SE job titles hold a [special place](https://blog.u
 Although initially used to define various steps in the career ladder <sup><a href="https://www.coderhood.com/software-engineering-job-titles/">1</a></sup> which meant more prestige from the colleagues and more importantly, better compensation from the employer - the ranks have warped into a pissing contest between new developers in the industry. The way I like to look at it is that the ranks are purely indicative of the level of impact, and the breadth of responsibility that any engineering individual in the company has. Unlike popular opinion, I don't think it's necessarily tied to experience either - I have seen engineers with < 2 years of experience handling complex architectural problems and conversely seen someone with > 10 years of experience in the industry struggling with basic programming concepts. There's also the matter of company size, a mid level at a large company might be a senior at a small company and vice versa. The career progression paths are different in every company and where you might lie based on that should also be taken into account.
 
 
-![](SE%20Levels.jpg)
+![](se_levels.jpg)
 
 
 For someone who has been coding since the age of 13 and has had various jobs at different levels in a professional setting for the past five years, I felt like now was the time to put in writing my thoughts on what constitutes developers at various levels. It is worth noting however that whatever you read here isn't definitive, and as always factors outside of technical and soft skills should be taken into account. 
