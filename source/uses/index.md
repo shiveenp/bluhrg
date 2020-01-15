@@ -7,8 +7,14 @@ date: 2020-01-12 21:24:01
 
 Sometimes I get asked for my development setup and the apps I use for my everyday work. This is a living page meant to contain it all. 
 
+### Languages ✍️
 
-### Hardware
+- [Kotlin](https://kotlinlang.org/) with SpringBoot for quick backend projects 🚀
+- [VueJS](https://vuejs.org/) for frontend 🤩
+- [Rust](https://www.rust-lang.org/) for quick tools and learning some new techniques 🔨
+- [Swift](https://developer.apple.com/swift/) for building iOS Apps 📱
+
+### Hardware ‍👨‍💻
 
 - [Macbook Pro 13"](https://www.apple.com/au/macbook-pro-13/): I have used windows, linux and Mac both professionally and as a hobbyist. Although I was on Ubuntu for a couple of years, nothing beats the general ease of use and dev friendliness of a Mac
 
@@ -24,7 +30,7 @@ Sometimes I get asked for my development setup and the apps I use for my everyda
 
 - iPhone 11 Pro
 
-## Software
+## Software 👓
 
 My dotfiles can be found [here](https://github.com/shavz/dotfiles)
 
@@ -38,15 +44,16 @@ My dotfiles can be found [here](https://github.com/shavz/dotfiles)
 - [Github](https://github.com): My code repository of choice
 - [Digital Ocean](https://www.digitalocean.com): I find these guys good value for money compared to AWS for hobby projects
 - [Netlify](https://www.netlify.com): Use it to host this blog, they are a delight to work with
-- [Safari](https://www.apple.com/au/safari/)/[Brave Browser](https://brave.com): Safari for my daily browsing and Brave when I need to use chromium dev tools
+- [Firefox Dev Edition](https://www.mozilla.org/en-US/firefox/developer/) As my webdev and everyday browser
 - [Postman](https://www.getpostman.com): For api testing
 
-### Apps
+### Apps 
 
 - [1Password](https://1password.com) for managing my logins and passwords
 - [Bear](https://bear.app) for note taking
 - [ON1 Photo RAW](https://www.on1.com) for editing my DSLR photos
 - [Pixelmator Pro](https://www.pixelmator.com/pro/) for creating logos and vector graphic editing
+- [Figma](https://www.figma.com) Their free account is perfect for wireframe mockups
 - [Rocket](https://matthewpalmer.net/rocket/) for amazing emoji support everywhere
 - [Slack](https://slack.com/intl/en-au/) for work and dev community chats
 - [Trello](https://trello.com/en) for managing my personal development to-do boards
