@@ -18,8 +18,6 @@ Sometimes I get asked for my development setup and the apps I use for my everyda
 
 - [Macbook Pro 13"](https://www.apple.com/au/macbook-pro-13/): I have used windows, linux and Mac both professionally and as a hobbyist. Although I was on Ubuntu for a couple of years, nothing beats the general ease of use and dev friendliness of a Mac
 
-![](./index/macbook-specs.png)
-
 - [Dell Ultrasharp 32" 4K Monitor](https://www.amazon.com.au/32-Inch-Screen-LED-Lit-Monitor-U3219Q/dp/B07HDBD9CM): I use a 4K monitor at home to do all my dev and creative (photo editing) work
 
 - [Apple Magic Trackpad 2](https://www.apple.com/au/shop/product/MJ2R2ZA/A/magic-trackpad-2-silver) and [Logitech MX Master 3](https://www.logitech.com/en-au/product/mx-master-3) (I alternate 🤓)
