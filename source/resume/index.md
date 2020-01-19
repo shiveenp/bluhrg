@@ -50,7 +50,7 @@ Working in this role, I wore many hats and worked across various agile feature t
 
 ## Tools and Languages
 
-Languages: Kotlin, Java, Rust, Javascript, Python
+Languages: Kotlin, Java, Rust, Go, Javascript, Python
 
 Backend Frameworks: Spring, Vert.x, Http4k
 
