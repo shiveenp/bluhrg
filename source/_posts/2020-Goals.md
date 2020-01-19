@@ -1,5 +1,5 @@
 ---
-title: 2020 Goals
+title: 2020 Vision
 date: 2020-01-19 20:41:31
 tags:
 - general
