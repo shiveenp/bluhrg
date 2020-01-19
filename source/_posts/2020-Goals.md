@@ -21,7 +21,7 @@ This is my personal tracking list for goals I have set for myself in 2020 to kee
     
 - **Complete one AWS cert**
 
-  Been on hold for a while, but I the developer [FOMO](https://www.urbandictionary.com/define.php?term=FOMO) is real.
+  Been on hold for a while, but the developer [FOMO](https://www.urbandictionary.com/define.php?term=FOMO) is real.
   
 - **Watch less but quality TV**
 
