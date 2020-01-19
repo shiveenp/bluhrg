@@ -14,9 +14,9 @@ My current software development interest lies in Kotlin as a general purpose pro
 
 In my spare time I love catching up on all things' astronomy 🌌 🚀, history and investment podcasts, and am an avid reader with my favourite genres being hard science fiction, psychology and autobiographical novels. More on my reading [here](/reading).
 
-Outside of my programming pursuits, I am also passionate about camping 🏕, hiking 🥾, landscape photography ⛰ 📷  — and boxing 🥊. 
+Outside of my programming pursuits, my long term hobbies include camping 🏕, hiking 🥾, landscape photography ⛰ 📷.
 
-Here's a glimpse of tools I [use](/uses)
+Here's a glimpse of tools I [use](/uses).
 
 ![](./about_me.jpg)
     

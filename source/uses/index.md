@@ -11,7 +11,7 @@ Sometimes I get asked for my development setup and the apps I use for my everyda
 
 - [Kotlin](https://kotlinlang.org/) with SpringBoot for quick backend projects 🚀
 - [VueJS](https://vuejs.org/) for frontend 🤩
-- [Rust](https://www.rust-lang.org/) for quick tools and learning some new techniques 🔨
+- [Go](https://golang.org/) for quick tools and learning some new techniques 🔨
 - [Swift](https://developer.apple.com/swift/) for building iOS Apps 📱
 
 ### Hardware ‍👨‍💻
