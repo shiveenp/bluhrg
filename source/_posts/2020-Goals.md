@@ -33,7 +33,7 @@ This is my personal tracking list for goals I have set for myself in 2020 to kee
     
 - **Consume more Vegetables**
 
-    With a goal to become completely Vegan by the end of this year
+    With a goal to become completely Vegan by the end of this year.
 
 - **Practice stoicism and avoid excesses**
 
