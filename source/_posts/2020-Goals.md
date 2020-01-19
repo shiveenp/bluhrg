@@ -37,7 +37,7 @@ This is my personal tracking list for goals I have set for myself in 2020 to kee
 
 - **Practice stoicism and avoid excesses**
 
-    I feel like stoicism gets touted as some cure all panacea for the distractions of 21st century. Personally, I am looking forward to adopting it as a way to combat drain of energy so I can only focus it on things that matter.
+    I feel like stoicism gets touted as some cure all panacea for the distractions in 21st century. Personally, I am looking forward to adopting it as a way to combat drain of energy so I can only focus it on things that matter.
 
 - **Learn one new physical and creative hobby**
 
