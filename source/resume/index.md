@@ -43,7 +43,7 @@ Joined the team as a senior engineer leading the technical design and delivering
 ## JP Morgan - Associate Software Engineer
 Dec 2016 - June 2018
 
-Working in this role, I wore many hats and worked across various agile feature teams across the custody, fund management and risk lines of business. Some key deliverables and objectives that I worked on my time there included working on a fund management exception and reporting system, a risk reporting system and a several other smaller projects.
+Working in this role, I wore many hats and worked across various agile feature teams across the custody, fund management and risk lines of business. Some key deliverables and objectives that I worked on my time there included working on a fund management exception and reporting system, a risk reporting system, and several other smaller projects.
 
 - Worked closely with fund managers to build out an exception management system with backend in Java and frontend in AngularJS which was later migrated to Angular 4.
 - Worked alongside the DevOps and production support teams to deliver CI/CD value across the whole organisation and upgraded out production monitoring services.
