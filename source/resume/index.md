@@ -16,9 +16,9 @@ As part of this role, I am involved in gathering and digesting, business and use
 
 My day to day role includes, but is not limited to:
 
-- Working closely with product owners and user experience designers to lay the roadmap for building new and existing services
-- Doing initial large impact MVP product build
-- Coaching and mentoring software engineers across all levels
+- Working closely with product owners and user experience designers to lay the roadmap for building new and existing services that meet client needs while at the same time maintaining product growth trajectory.`
+- Doing initial large impact pre-MVP/MVP product build before handing it off to feature teams.
+- Coaching and mentoring software engineers across all levels.
 
 ## Grow Super — Lead Software Engineer
 July 2019 — December 2019
@@ -35,9 +35,10 @@ June 2018 – July 2019
 
 Joined the team as a senior engineer leading the technical design and delivering scalable and performant event-driven JVM based microservices for a team looking to move away from NodeJS monolith.
 
+- 
 - Led and owned the platform integration project, helping the system integrate with leading accounting and ERP solutions providers such as Oracle Netsuite, Microsoft Dynamics 365, Myob, Xero and Reckon etc.
 - Built and delivered the rewrite of the reporting engine, that enabled users to request on demand reports as well as dynamic scheduled reports which drove business delivery for key clients.
-- Created an open sourced [Rust] utility for calculating 
+- Created an open sourced [Rust] utility that formed a key piece of business functionality relied on by clients.
 
 ## JP Morgan - Associate Software Engineer
 Dec 2016 - June 2018
