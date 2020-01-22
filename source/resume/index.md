@@ -35,7 +35,7 @@ June 2018 – July 2019
 
 Joined the team as a senior engineer leading the technical design and delivering scalable and performant event-driven JVM based microservices for a team looking to move away from NodeJS monolith.
 
-- 
+- Onboarded the whole team to formalised development practices using Kotlin/JVM stack and scaled out the fledgling JVM stack.
 - Led and owned the platform integration project, helping the system integrate with leading accounting and ERP solutions providers such as Oracle Netsuite, Microsoft Dynamics 365, Myob, Xero and Reckon etc.
 - Built and delivered the rewrite of the reporting engine, that enabled users to request on demand reports as well as dynamic scheduled reports which drove business delivery for key clients.
 - Created an open sourced [Rust] utility that formed a key piece of business functionality relied on by clients.
